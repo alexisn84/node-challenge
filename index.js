@@ -157,7 +157,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'licenses',
+        name: 'license',
         message: 'Provide any license information',
         when: ({ sections }) => {
             if (sections.indexOf('Licenses')> -1) {

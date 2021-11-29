@@ -6,7 +6,7 @@ function renderLicenseBadge(license) {
     ![badge](https://img.shields.io/badge/license-${license}-blue)
     `;
   } else {
-    return ' ';
+    return '';
 
   }
 }
@@ -38,6 +38,17 @@ function renderLicenseSection(license) {
   }
 }
 
+//try to correct license placement function to TOC
+function renderLicenseTable(license) {
+  if (license !== 'no license') {
+    return `
+    * [License](#license)
+    `;
+  } else {
+    return '';
+  }
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -49,15 +60,13 @@ function generateMarkdown(data) {
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [License](#license)
+  ${renderLicenseTable(data.license)}
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
   
   ## [Description](#table-of-contents)
-  ${data.what}
-  ${data.why}
-  ${data.how}
+  ${data.description}
 
   ## [Installation](#table-of-contents)
   ${data.installation}
@@ -66,7 +75,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ${renderLicenseSection(data.license)}
- 
+
   ## [Contributors](#table-of-contents)
   ${data.contributing}
 
@@ -75,7 +84,7 @@ function generateMarkdown(data) {
 
   ## [Questions](#table-of-contents)
   
-  If you have any questions please feel free to contact me at [Email: ${data.email}](mailto:${data.email})
+  If you have any questions please feel free to contact me at [Email: ${data.questions}](mailto:${data.questions})
 `;
 }
   
