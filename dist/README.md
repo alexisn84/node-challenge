@@ -1,4 +1,4 @@
-# run buddy
+# Run Buddy
 
   
     ![badge](https://img.shields.io/badge/license-undefined-blue)
@@ -6,24 +6,24 @@
 
   ## Table of Contents
 
-  * [Description] (#description)
-  * [Installation] (#installation)
+  * [Description](#description)
+  * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
   
-  ## [Description] (#table-of-contents)
+  ## [Description](#table-of-contents)
   undefined
   undefined
   undefined
 
   ## [Installation](#table-of-contents)
-  undefined
+  vs code node inquirer
 
-  ## [Usage] (#table-of-contents)
-  fjdlafjdl
+  ## [Usage](#table-of-contents)
+  node, vs code
 
   
     ## [License](#table-of-contents)
@@ -34,12 +34,12 @@
     
     
  
-  ## [Contributors] (#table-of-contents)
-  undefined
+  ## [Contributors](#table-of-contents)
+  ni
 
-  ## [Tests] (#table-of-contents)
-  undefined
+  ## [Tests](#table-of-contents)
+  vs code
 
-  ##[Questions](#table-of-contents)
+  ## [Questions](#table-of-contents)
   
-  If you have any questions please feel free to contact me at [undefined](mailto:undefined)
+  If you have any questions please feel free to contact me at [Email: undefined](mailto:undefined)

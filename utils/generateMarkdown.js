@@ -46,15 +46,15 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  * [Description] (#description)
-  * [Installation] (#installation)
+  * [Description](#description)
+  * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
   
-  ## [Description] (#table-of-contents)
+  ## [Description](#table-of-contents)
   ${data.what}
   ${data.why}
   ${data.how}
@@ -62,20 +62,20 @@ function generateMarkdown(data) {
   ## [Installation](#table-of-contents)
   ${data.installation}
 
-  ## [Usage] (#table-of-contents)
+  ## [Usage](#table-of-contents)
   ${data.usage}
 
   ${renderLicenseSection(data.license)}
  
-  ## [Contributors] (#table-of-contents)
+  ## [Contributors](#table-of-contents)
   ${data.contributing}
 
-  ## [Tests] (#table-of-contents)
+  ## [Tests](#table-of-contents)
   ${data.tests}
 
-  ##[Questions](#table-of-contents)
+  ## [Questions](#table-of-contents)
   
-  If you have any questions please feel free to contact me at [${data.email}](mailto:${data.email})
+  If you have any questions please feel free to contact me at [Email: ${data.email}](mailto:${data.email})
 `;
 }
   
