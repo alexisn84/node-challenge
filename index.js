@@ -119,8 +119,8 @@ const questions = [
         type: 'input',
         name: 'link',
         message: 'Enter link to your deployed application',
-        when: ({ contents}) => {
-            if (contents.indexOf('Deployed Application') > -1) {
+        when: ({ sections }) => {
+            if (sections.indexOf('Deployed Application') > -1) {
                 return true;
             } else {
                 return false;
@@ -139,8 +139,8 @@ const questions = [
         type: 'input',
         name: 'installation',
         message: 'List required packages for installation of your application',
-        when: ({ contents }) => {
-            if (contents.indexOf('Installation')> -1) {
+        when: ({ sections }) => {
+            if (sections.indexOf('Installation')> -1) {
                 return true;
             } else {
                 return false 
@@ -159,8 +159,8 @@ const questions = [
         type: 'input',
         name: 'licenses',
         message: 'Provide any license information',
-        when: ({ contents }) => {
-            if (contents.indexOf('Licenses')> -1) {
+        when: ({ sections }) => {
+            if (sections.indexOf('Licenses')> -1) {
                 return true;
             } else {
                 return false 
@@ -181,8 +181,8 @@ const questions = [
         message: 'Select languages and technologies used for your application',
         choices: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Node.js', 'Express.js'],
         default: 0,
-        when: ({ contents }) => {
-            if (contents.indexOf('Built With') > -1) {
+        when: ({ sections }) => {
+            if (sections.indexOf('Built With') > -1) {
                 return true;
             } else {
                 return false;
@@ -193,8 +193,8 @@ const questions = [
         type: 'input',
         name: 'contributing',
         message: 'Please enter your guidelines for contributing.',
-        when: ({ contents }) => {
-            if (contents.indexOf('Ways to Contribute') > -1) {
+        when: ({ sections }) => {
+            if (sections.indexOf('Ways to Contribute') > -1) {
                 return true;
             } else {
                 return false;
@@ -213,8 +213,8 @@ const questions = [
         type: 'input',
         name: 'tests',
         message: 'Enter test information for your application.',
-        when: ({ contents }) => {
-            if (contents.indexOf('Tests') > -1) {
+        when: ({ sections }) => {
+            if (sections.indexOf('Tests') > -1) {
                 return true;
             } else {
                 return false;
@@ -233,8 +233,8 @@ const questions = [
         type: 'input',
         name: 'questions',
         message: 'Please provide an email address for questions.',
-        when: ({ contents }) => {
-            if (contents.indexOf('Questions') > -1) {
+        when: ({ sections }) => {
+            if (sections.indexOf('Questions') > -1) {
                 return true;
             } else { 
                 return false;
@@ -367,14 +367,14 @@ function init() {
 // Function call to initialize app
 init() 
     .then(userResponse => { 
-        if (userResponse.contents.indexOf('Images') > -1) {
+        if (userResponse.sections.indexOf('Images') > -1) {
             return addShots(userResponse);
         } else {
             return userResponse;
         }
     })
     .then(response => {
-        if (response.contents.indexOf('Credits') > -1) {
+        if (response.sections.indexOf('Credits') > -1) {
             return nextContri(response);
         }   else {
             return response;
