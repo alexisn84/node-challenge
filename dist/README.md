@@ -1,8 +1,7 @@
-# Run Buddy
+
+  # run buddy
 
   
-    ![badge](https://img.shields.io/badge/license-mit-blue)
-    
 
   ## Table of Contents
 
@@ -17,20 +16,20 @@
   * [Questions](#questions)
   
   ## [Description](#table-of-contents)
-  to sign up with coach
+  sign up to train
 
   ## [Installation](#table-of-contents)
-  tons
+  inquirer
 
   ## [Usage](#table-of-contents)
-  losts of stuff
+  clone adn walk thru prompts
 
+  ## [License](#license)
   
-    ## [License](#table-of-contents)
     The application is covered under the following license(s):
     
     
-    [mit](https://choosealicense.com/licenses/mit)
+    [MIT](https://choosealicense.com/licenses/MIT)
     
     
 
@@ -38,7 +37,7 @@
   none
 
   ## [Tests](#table-of-contents)
-  loads
+  run test in terminal
 
   ## [Questions](#table-of-contents)
   

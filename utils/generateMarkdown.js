@@ -1,9 +1,9 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// If there is no license, return an empty string ${renderLicenseBadge(data.license)}
 function renderLicenseBadge(license) {
   if (license !== 'no license') {
     return`
-    ![badge](https://img.shields.io/badge/license-${license}-blue)
+    ![GitHub](https://img.shields.io/github/license/${data.githubUsername}/${data.title})
     `;
   } else {
     return '';
@@ -28,7 +28,6 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== 'no license') {
     return`
-    ## [License](#table-of-contents)
     The application is covered under the following license(s):
     
     ${renderLicenseLink(license)}
@@ -51,9 +50,10 @@ function renderLicenseTable(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+  # ${data.title}
 
-  ${renderLicenseBadge(data.license)}
+  
 
   ## Table of Contents
 
@@ -74,6 +74,7 @@ function generateMarkdown(data) {
   ## [Usage](#table-of-contents)
   ${data.usage}
 
+  ## [License](#license)
   ${renderLicenseSection(data.license)}
 
   ## [Contributors](#table-of-contents)
