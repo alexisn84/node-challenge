@@ -35,7 +35,7 @@ https://walmart.p.rapidapi.com/products/v2/list?query=
 >8. From this view, the user has the option to "Delete individual item", "Delete List", "Print List", "Email List" or to "Return to Homepage" to continue comparing and adding additional items.
 
 ## Images
-<img src="hhttps://github.com/alexisn84/node-challenge/blob/main/image/01-homepage%20view.jpg" alt="homepage"/>
+<!-- <img src="https://github.com/alexisn84/node-challenge/blob/main/image/01-homepage%20view.jpg" alt="homepage"/>
 
 <img src="https://github.com/alexisn84/node-challenge/blob/main/image/02-search%20function%20and%20display.jpg" alt="search and address return"/>
 
@@ -43,7 +43,7 @@ https://walmart.p.rapidapi.com/products/v2/list?query=
 
 <img src="https://github.com/alexisn84/node-challenge/blob/main/image/04-link%20to%20shopping%20list.jpg" alt="link to shopping list"/>
 
-<img src="https://github.com/alexisn84/node-challenge/blob/main/image/05-view%20of%20shopping%20list%20page.jpg" alt="shopping list"/>
+<img src="https://github.com/alexisn84/node-challenge/blob/main/image/05-view%20of%20shopping%20list%20page.jpg" alt="shopping list"/> -->
 
 ## Contributors: 
 Alexis El Amrani, Mark Dale, Patricia Manecci, Sebastian Casado and Phillip MacDonald 
