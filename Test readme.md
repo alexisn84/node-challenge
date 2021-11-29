@@ -36,13 +36,13 @@ https://walmart.p.rapidapi.com/products/v2/list?query=
 
 ## Images
 <img src="hhttps://github.com/alexisn84/node-challenge/blob/main/image/01-homepage%20view.jpg" alt="homepage"/>
-<br/>
+
 <img src="https://github.com/alexisn84/node-challenge/blob/main/image/02-search%20function%20and%20display.jpg" alt="search and address return"/>
 
 <img src="https://github.com/alexisn84/node-challenge/blob/main/image/03-%20search%20item%20displayed.jpg" alt="search results displayed"/>
-<br/>
+
 <img src="https://github.com/alexisn84/node-challenge/blob/main/image/04-link%20to%20shopping%20list.jpg" alt="link to shopping list"/>
-<br/>
+
 <img src="https://github.com/alexisn84/node-challenge/blob/main/image/05-view%20of%20shopping%20list%20page.jpg" alt="shopping list"/>
 
 ## Contributors: 
