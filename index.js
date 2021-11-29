@@ -321,7 +321,7 @@ addShots = readmeData => {
         readmeData.images = [];
     }
     console.log ('ADD NEW IMAGE');
-    return inquirer.prompt(imageLink)
+    return inquirer.prompt(imageArea)
     .then(imageData => {
         readmeData.images.push(imageData);
         if (imageData.addImage) {
