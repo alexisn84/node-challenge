@@ -1,31 +1,30 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string ${renderLicenseBadge(data.license)}
 
-const addLicenseBadge = license => {
-  if (license) {
-      return `![${license} License](https://img.shields.io/badge/license-${license.split(' ').join('%20')}-blueviolet&?style=plastic&logo=appveyor)
-`;
-  } else {
-      return '';
-  }
-};
-// function renderLicenseBadge(license) {
-//   if (license !== 'no license') {
-//     return`
-//     ![GitHub](https://img.shields.io/github/license/${data.githubUsername}/${data.title})
-//     `;
+// const addLicenseBadge = license => {
+//   if (license) {
+//       return `![${license} License](https://img.shields.io/badge/license-${license.split(' ').join('%20')}-blueviolet)
+// `;
 //   } else {
-//     return '';
-
+//       return '';
 //   }
-// }
+// };
+function renderLicenseBadge(license) {
+  if (license !== 'no license') {
+    return `![GitHub](https://img.shields.io/github/license/${data.githubUsername}/${data.title})
+    `;
+  } else {
+    return '';
+
+  }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== 'no license') {
     return`
-    [${license}](https://choosealicense.com/licenses/${license})
+    [${license}](https://choosealicense.com/licenses/${license}), (https://opensource.org/licenses/${license})
     `;
   }else {
     return ' ';
@@ -62,28 +61,26 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  ## [Description]
+  ## Description
   ${data.description}
 
   ## Table of Contents
 
-  * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-    [License(s)](#license)
+  * [License(s)](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
   * [Credits](#credits)
   
-  ## [Description](#table-of-contents)
-  ${data.description}
 
   ## [Installation](#table-of-contents)
   ${data.installation}
 
   ## [Usage](#table-of-contents)
   ${data.usage}
+  For information on how to add images and screenshots, visit the following website: [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
 
   ## [License](#table-of-contents)
   ${renderLicenseSection(data.license)}
