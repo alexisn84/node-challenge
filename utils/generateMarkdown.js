@@ -80,6 +80,7 @@ function generateMarkdown(data) {
 
   ## [Usage](#table-of-contents)
   ${data.usage}
+  
   For information on how to add images and screenshots, visit the following website: [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
 
   ## [License](#table-of-contents)
