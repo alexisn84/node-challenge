@@ -18,6 +18,9 @@ Click the following link: [Node Challenge](https://github.com/alexisn84/node-cha
 After Installation is complete, type node index.js using the command line in your terminal. Follow prompts to enter required fields and select from optional additional fields. You know you have finished when the prompt shows "README.md created!". The README will be created in the ./dist folder. You can copy and paste this code into your project as it is generated in mark down syntax.
 
 ### Screenshots
+<img src="https://github.com/alexisn84/node-challenge/blob/main/Develop/images/prompt%20display%20in%20terminal.png" alt="terminal prompts">
+<img src="https://github.com/alexisn84/node-challenge/blob/main/Develop/images/display%20produced%20file%201.png" alt="generated file top half">
+<img src="https://github.com/alexisn84/node-challenge/blob/main/Develop/images/display%20produced%20file%202.png" alt="generated file bottom half">
 <img src="https://github.com/alexisn84/node-challenge/blob/main/Develop/images/code%20layout.png" alt= "layout of code to create generator">
 
 ## Built With
