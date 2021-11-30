@@ -17,7 +17,7 @@ A Node.js application that will help you generate a professional README file. RE
 After Installation is complete, type node index.js using the command line in your terminal. Follow prompts to enter required fields and select from optional additional fields. You know you have finished when the prompt shows "README.md created!". The README will be created in the ./dist folder. You can copy and paste this code into your project as it is generated in mark down syntax.
 
 ### Screenshots
-
+<img src="https://github.com/alexisn84/node-challenge/blob/main/Develop/images/code%20layout.png" alt= "layout of code to create generator">
 ## Built With
 * HTML
 * CSS

@@ -1,47 +1,45 @@
 
-  # run buddy
+  # Run Buddy
 
-  ## [Description]
-  dalfjdlgaj
+  ## Description
+  A website to offer training anywhere with real live trainers anywhere. 
 
   ## Table of Contents
 
-  * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-    [License(s)](#license)
+  * [License(s)](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
   * [Credits](#credits)
   
-  ## [Description](#table-of-contents)
-  dalfjdlgaj
 
   ## [Installation](#table-of-contents)
-  inquirer
+  undefined
 
   ## [Usage](#table-of-contents)
-  to help
+  A user can look at subscription offferings and either sign up for the service or request more information.
+  For information on how to add images and screenshots, visit the following website: [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
 
   ## [License](#table-of-contents)
   
     The application is covered under the following license(s):
     
     
-    [mit](https://choosealicense.com/licenses/mit)
+    [undefined](https://choosealicense.com/licenses/undefined), (https://opensource.org/licenses/undefined)
     
     
 
   ## [Contributors](#table-of-contents)
-  none at this time
+  None at this time
 
   ## [Tests](#table-of-contents)
-  open stuff
+  undefined
 
   ## [Questions](#table-of-contents)
   
-  If you have any questions please feel free to contact me at [Email: alexis@](mailto:alexis@)
+  If you have any questions please feel free to contact me at [Email: info@gmail.com](mailto:info@gmail.com)
 
   ## [Credits](#table-of-contents)
-  ucf
+  UCF Coding Bootcamp
