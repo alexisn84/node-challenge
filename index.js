@@ -61,7 +61,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide information for using this application. (Required)',
+        message: 'Provide information for using this application (the usage). (Required)',
         validate: usageInput => {
             if (usageInput){
                 return true;
@@ -250,47 +250,7 @@ const questions = [
                 return false;
             }
         }
-    }
-];
-
-//add an array to handle images/screenshots
-const imageArea = [
-    {
-        type:' input',
-        name: 'imageLink',
-        message: 'Provide links for images and screenshots. (Required)',
-        validate: imageInput => {
-            if (imageInput) {
-                return true;
-            } else {
-                console.log ('Add links to load images and screenshots')
-                return false;
-            }
-        }
     },
-    {
-        type: 'input',
-        name: 'imageAlt',
-        message: 'Please provide alt text for your image/screenshots. (Required)',
-        validate: altInput => {
-            if (altInput) {
-                return true;
-            } else {
-                console.log('Alt text required')
-                return false;
-            }
-        }
-    },
-    {
-        type: 'confirm',
-        name: 'addImage',
-        message: 'Would you like to add another image/screenshot?',
-        default: false
-    }
-];
-
-// ways to add multiple contributors
-const contriArea = [
     {
         type: 'input',
         name: 'credits',
@@ -299,57 +259,13 @@ const contriArea = [
             if (contributorInput) {
                 return true;
             } else {
-                console.log('Please enter name')
+                console.log('Please enter name or link')
                 return false
             }
         }
-    },
-    {
-        type: 'input',
-        name: 'contriLink',
-        message: 'Provide link if needed. (Optional)'
-    },
-    {
-        type: 'confirm',
-        name: 'addContri',
-        message: 'Would you like to add additional Contributor or Credit?',
-        default: false
     }
-]
+];
 
-//need to add ways to add function to adding screenshots
-addShots = readmeData => {
-    if (!readmeData.images) {
-        readmeData.images = [];
-    }
-    console.log ('ADD NEW IMAGE');
-    return inquirer.prompt(imageArea)
-    .then(imageData => {
-        readmeData.images.push(imageData);
-        if (imageData.addImage) {
-            return addShots(readmeData);
-        } else {
-            return readmeData;
-        };
-    });
-};
-
-//function to add contributors/credits
-nextContri = readmeInfo => {
-    if (readmeInfo.credits) {
-        readmeInfo.credits = [];
-    };
-    console.log('ADD NEW CONTRIBUTOR/CREDIT');
-    return inquirer.prompt(contriArea)
-    .then(creditData => {
-        readmeInfo.credits.push(creditData);
-        if (creditData.addContri) {
-            return nextContri(readmeInfo);
-        } else {
-            return readmeInfo;
-        }
-    });
-};
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -368,20 +284,6 @@ function init() {
 
 // Function call to initialize app
 init() 
-    .then(userResponse => { 
-        if (userResponse.sections.indexOf('Images') > -1) {
-            return addShots(userResponse);
-        } else {
-            return userResponse;
-        }
-    })
-    .then(response => {
-        if (response.sections.indexOf('Credits') > -1) {
-            return nextContri(response);
-        }   else {
-            return response;
-        }
-    })
     .then(answers => generateMarkdown(answers))
     .then(generatedReadme => writeToFile('README.md', generatedReadme))
     .catch(err => {

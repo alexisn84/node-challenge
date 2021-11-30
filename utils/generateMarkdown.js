@@ -70,7 +70,7 @@ function generateMarkdown(data) {
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  ${renderLicenseTable(data.license)}
+    [License(s)](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
@@ -85,7 +85,7 @@ function generateMarkdown(data) {
   ## [Usage](#table-of-contents)
   ${data.usage}
 
-  ## [License](#license)
+  ## [License](#table-of-contents)
   ${renderLicenseSection(data.license)}
 
   ## [Contributors](#table-of-contents)
@@ -102,5 +102,6 @@ function generateMarkdown(data) {
   ${data.credits}
 `;
 }
-  
+
+
 module.exports = generateMarkdown;

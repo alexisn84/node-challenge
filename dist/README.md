@@ -1,44 +1,47 @@
 
   # run buddy
 
-  
+  ## [Description]
+  dalfjdlgaj
 
   ## Table of Contents
 
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  
-    * [License](#license)
-    
+    [License(s)](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
+  * [Credits](#credits)
   
   ## [Description](#table-of-contents)
-  sign up to train
+  dalfjdlgaj
 
   ## [Installation](#table-of-contents)
   inquirer
 
   ## [Usage](#table-of-contents)
-  clone adn walk thru prompts
+  to help
 
-  ## [License](#license)
+  ## [License](#table-of-contents)
   
     The application is covered under the following license(s):
     
     
-    [MIT](https://choosealicense.com/licenses/MIT)
+    [mit](https://choosealicense.com/licenses/mit)
     
     
 
   ## [Contributors](#table-of-contents)
-  none
+  none at this time
 
   ## [Tests](#table-of-contents)
-  run test in terminal
+  open stuff
 
   ## [Questions](#table-of-contents)
   
-  If you have any questions please feel free to contact me at [Email: alexis@gmail.com](mailto:alexis@gmail.com)
+  If you have any questions please feel free to contact me at [Email: alexis@](mailto:alexis@)
+
+  ## [Credits](#table-of-contents)
+  ucf
