@@ -4,9 +4,10 @@
 A Node.js application that will help you generate a professional README file. README.md files are overlooked in general due to a variety of reasons ranging from lack of knowledge of proper syntax in README.md files to laziness. This generate allows users to walk thru the steps of a proper README.md file, and based on their responses auto-generate a professinal README.md file. 
 
 ## Installation
-*Install Inquirer if not yet installed on your system
+*Install Inquirer if not yet installed on your system*
 >Refer to [Inquirer Documentation for Instructions](https://www.npmjs.com/package/inquirer)
-*Click the following link: [Node Challenge](https://github.com/alexisn84/node-challenge)
+
+Click the following link: [Node Challenge](https://github.com/alexisn84/node-challenge)
 >1. Download the zip file 
 >2. Copy the files to a directory of your choice
 >3. Open the file in your preferred editor and ensure your terminal is in the root directory of node-challenge
@@ -18,6 +19,7 @@ After Installation is complete, type node index.js using the command line in you
 
 ### Screenshots
 <img src="https://github.com/alexisn84/node-challenge/blob/main/Develop/images/code%20layout.png" alt= "layout of code to create generator">
+
 ## Built With
 * HTML
 * CSS
