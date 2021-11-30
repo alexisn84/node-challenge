@@ -2,7 +2,7 @@
   # Run Buddy
 
   ## Description
-  A website to offer training anywhere with real live trainers anywhere. 
+  web browser development that allows runners to sign up to have access to trainers and workout plans.
 
   ## Table of Contents
 
@@ -16,10 +16,10 @@
   
 
   ## [Installation](#table-of-contents)
-  undefined
+   None
 
   ## [Usage](#table-of-contents)
-  A user can look at subscription offferings and either sign up for the service or request more information.
+  the user can browse the website to gain information about the service. The user can than sign up for the subscription or request additional information.
   For information on how to add images and screenshots, visit the following website: [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
 
   ## [License](#table-of-contents)
@@ -32,14 +32,14 @@
     
 
   ## [Contributors](#table-of-contents)
-  None at this time
+  None at this time.
 
   ## [Tests](#table-of-contents)
   undefined
 
   ## [Questions](#table-of-contents)
   
-  If you have any questions please feel free to contact me at [Email: info@gmail.com](mailto:info@gmail.com)
+  If you have any questions please feel free to contact me at [Email: alexis@github.com](mailto:alexis@github.com)
 
   ## [Credits](#table-of-contents)
-  UCF Coding Bootcamp
+  UCF Coding Bootcamp Starter Code
