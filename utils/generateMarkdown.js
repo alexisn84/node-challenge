@@ -1,15 +1,24 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string ${renderLicenseBadge(data.license)}
-function renderLicenseBadge(license) {
-  if (license !== 'no license') {
-    return`
-    ![GitHub](https://img.shields.io/github/license/${data.githubUsername}/${data.title})
-    `;
-  } else {
-    return '';
 
+const addLicenseBadge = license => {
+  if (license) {
+      return `![${license} License](https://img.shields.io/badge/license-${license.split(' ').join('%20')}-blueviolet&?style=plastic&logo=appveyor)
+`;
+  } else {
+      return '';
   }
-}
+};
+// function renderLicenseBadge(license) {
+//   if (license !== 'no license') {
+//     return`
+//     ![GitHub](https://img.shields.io/github/license/${data.githubUsername}/${data.title})
+//     `;
+//   } else {
+//     return '';
+
+//   }
+// }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -53,7 +62,8 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  
+  ## [Description]
+  ${data.description}
 
   ## Table of Contents
 
@@ -64,6 +74,7 @@ function generateMarkdown(data) {
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
+  * [Credits](#credits)
   
   ## [Description](#table-of-contents)
   ${data.description}
@@ -86,6 +97,9 @@ function generateMarkdown(data) {
   ## [Questions](#table-of-contents)
   
   If you have any questions please feel free to contact me at [Email: ${data.questions}](mailto:${data.questions})
+
+  ## [Credits](#table-of-contents)
+  ${data.credits}
 `;
 }
   

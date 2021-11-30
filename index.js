@@ -110,7 +110,7 @@ const questions = [
                 checked: true
             },
             {
-                name: 'Contributors',
+                name: 'Credits',
                 checked: true
             },
         ]
@@ -159,6 +159,8 @@ const questions = [
         type: 'input',
         name: 'license',
         message: 'Provide any license information',
+        choices: ['MIT', 'ISC', 'OpenBSD'],
+        default: 0,
         when: ({ sections }) => {
             if (sections.indexOf('Licenses')> -1) {
                 return true;
@@ -224,7 +226,7 @@ const questions = [
             if (testsInput) {
                 return true;
             } else {
-                console.log('What packages are required to run tests for your application?');
+                console.log('Enter test information for your application?');
                 return false;
             }
         }
@@ -291,7 +293,7 @@ const imageArea = [
 const contriArea = [
     {
         type: 'input',
-        name: 'contributors',
+        name: 'credits',
         message: 'Please provide name or title of contributor or credit. (Required)',
         validate: contributorInput => {
             if (contributorInput) {
