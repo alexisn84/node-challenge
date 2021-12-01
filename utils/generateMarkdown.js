@@ -4,7 +4,7 @@
 function renderLicenseBadge(license) {
   if (license !== 'no license') {
     return `
-    ![badge](https://img.shields.io/badge/license-${license}-blueviolet)
+    https://img.shields.io/apm/l/github?color=blueviolet&style=plastic
     `;
   } else {
     return ' ';
@@ -76,10 +76,10 @@ function generateMarkdown(data) {
   ## [Usage](#table-of-contents)
   ${data.usage}
 
-  ## [Images](#table-of-contents)
-    For information on how to add images and screenshots, visit the following website: 
+  Images:
+  For information on how to add images and screenshots, visit the following website: 
 
-    [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
+  [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
 
   ## [License](#table-of-contents)
   ${renderLicenseSection(data.license)}
