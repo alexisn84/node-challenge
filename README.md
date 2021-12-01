@@ -19,6 +19,7 @@ After Installation is complete, type node index.js using the command line in you
 
 ### Screenshots
 [Watch Video:](https://drive.google.com/file/d/1Lr3ks9X6LQCZFd0RDiXOjuRVTPZQ1STf/view)
+
 <img src="https://github.com/alexisn84/node-challenge/blob/main/Develop/images/prompt%20display%20in%20terminal.png" alt="terminal prompts">
 <img src="https://github.com/alexisn84/node-challenge/blob/main/Develop/images/display%20produced%20file%201.png" alt="generated file top half">
 <img src="https://github.com/alexisn84/node-challenge/blob/main/Develop/images/display%20produced%20file%202.png" alt="generated file bottom half">
