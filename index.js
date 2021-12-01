@@ -61,12 +61,12 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide information for using this application (the usage). (Required)',
+        message: 'Provide instructions for using this application. (Required)',
         validate: usageInput => {
             if (usageInput){
                 return true;
             } else {
-                console.log ('Please enter information for using this application.');
+                console.log ('Please enter instructions for using this application.');
                 return false;
             }
         }
@@ -85,10 +85,10 @@ const questions = [
                 name: 'Installation',
                 checked: false,
             },
-            {
-                name: 'Images',
-                checked: true
-            },
+            // {
+            //     name: 'Images',
+            //     checked: true
+            // },
             {
                 name: 'Built with',
                 checked: true
@@ -160,26 +160,26 @@ const questions = [
         name: 'license',
         message: 'Provide any license information',
         choices: ['MIT', 'ISC', 'OpenBSD'],
-        default: 0,
-        when: ({ sections }) => {
-            if (sections.indexOf('Licenses')> -1) {
-                return true;
-            } else {
-                return false 
-            }
-        },
-        validate: licensesInput => {
-            if (licensesInput) {
-                return true;
-            } else {
-                console.log ('Enter license information or N/A');
-                return false;
-            }
-        }
+        // default: 0,
+        // when: ({ sections }) => {
+        //     if (sections.indexOf('Licenses')> -1) {
+        //         return true;
+        //     } else {
+        //         return false 
+        //     }
+        // },
+        // validate: licensesInput => {
+        //     if (licensesInput) {
+        //         return true;
+        //     } else {
+        //         console.log ('Enter license information or N/A');
+        //         return false;
+        //  }
+        // }
     },
     {
         type: 'checkbox',
-        name: 'built with',
+        name: 'built',
         message: 'Select languages and technologies used for your application',
         choices: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Node.js', 'Express.js'],
         default: 0,

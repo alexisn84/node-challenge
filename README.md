@@ -5,7 +5,7 @@ A Node.js application that will help you generate a professional README file. RE
 
 ## Installation
 *Install Inquirer if not yet installed on your system*
->Refer to [Inquirer Documentation for Instructions](https://www.npmjs.com/package/inquirer)
+*>Refer to [Inquirer Documentation for Instructions](https://www.npmjs.com/package/inquirer)*
 
 Click the following link: [Node Challenge](https://github.com/alexisn84/node-challenge)
 >1. Download the zip file 
@@ -18,12 +18,15 @@ Click the following link: [Node Challenge](https://github.com/alexisn84/node-cha
 After Installation is complete, type node index.js using the command line in your terminal. Follow prompts to enter required fields and select from optional additional fields. You know you have finished when the prompt shows "README.md created!". The README will be created in the ./dist folder. You can copy and paste this code into your project as it is generated in mark down syntax.
 
 ### Screenshots
-[Watch Video:](https://drive.google.com/file/d/1Lr3ks9X6LQCZFd0RDiXOjuRVTPZQ1STf/view)
+[Click to Watch Video](https://drive.google.com/file/d/1Lr3ks9X6LQCZFd0RDiXOjuRVTPZQ1STf/view)
 
 <img src="https://github.com/alexisn84/node-challenge/blob/main/Develop/images/prompt%20display%20in%20terminal.png" alt="terminal prompts">
 <img src="https://github.com/alexisn84/node-challenge/blob/main/Develop/images/display%20produced%20file%201.png" alt="generated file top half">
 <img src="https://github.com/alexisn84/node-challenge/blob/main/Develop/images/display%20produced%20file%202.png" alt="generated file bottom half">
 <img src="https://github.com/alexisn84/node-challenge/blob/main/Develop/images/code%20layout.png" alt= "layout of code to create generator">
+
+## Tests
+To test this app, open up the file in your editor preference. Open the terminal, change directory into the root folder ‘node-challenge’, and run ‘node index.js’. Answer the prompts and view the preview of the ‘generated-README.md’ file in the ‘dist’ folder.
 
 ## Built With
 * HTML

@@ -12,7 +12,9 @@
 
   * [Installation](#installation)
   * [Usage](#usage)
+  * Images
   * [License(s)](#license)
+  * [Built With](#built)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
@@ -20,10 +22,10 @@
   
 
   ## [Installation](#table-of-contents)
-  *Install Inquirer if not yet installed on your system*
+  inquirer
 
   ## [Usage](#table-of-contents)
-  After Installation is complete, type node index.js using the command line in your terminal. Follow prompts to enter required fields and select from optional additional fields. You know you have finished when the prompt shows "README.md created!". The README will be created in the ./dist folder. You can copy and paste this code into your project as it is generated in mark down syntax.
+  *Install Inquirer if not yet installed on your system**>Refer to [Inquirer Documentation for Instructions](https://www.npmjs.com/package/inquirer)*
 
   ## Images
     For information on how to add images and screenshots, visit the following website: 
@@ -38,11 +40,14 @@
     
     
 
+  ## [Built With](#table-of-contents)
+  undefined
+
   ## [Contributors](#table-of-contents)
-  None at this time.
+  None at this time
 
   ## [Tests](#table-of-contents)
-  To test this app, open up the file in VS Code. Open the terminal, change directory into the root folder 'node-challenge'and run ‘node index.js’. Answer the prompts and view the preview of the ‘generated-README.md’ file in the ‘dist’ folder.
+  To test this app, open up the file in your editor preference. Open the terminal, change directory into the root folder ‘node-challenge’, and run ‘node index.js’. Answer the prompts and view the preview of the ‘generated-README.md’ file in the ‘dist’ folder.
 
   ## [Questions](#table-of-contents)
   
