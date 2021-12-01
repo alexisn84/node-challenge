@@ -64,7 +64,6 @@ function generateMarkdown(data) {
   * [Usage](#usage)
   * Images
   * [License(s)](#license)
-  * [Built With](#built)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
@@ -77,15 +76,13 @@ function generateMarkdown(data) {
   ## [Usage](#table-of-contents)
   ${data.usage}
 
-  ## Images
+  ## [Images](#table-of-contents)
     For information on how to add images and screenshots, visit the following website: 
+
     [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
 
   ## [License](#table-of-contents)
   ${renderLicenseSection(data.license)}
-
-  ## [Built With](#table-of-contents)
-  ${data.built}
 
   ## [Contributors](#table-of-contents)
   ${data.contributing}

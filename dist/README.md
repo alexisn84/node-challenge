@@ -14,7 +14,6 @@
   * [Usage](#usage)
   * Images
   * [License(s)](#license)
-  * [Built With](#built)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
@@ -22,13 +21,14 @@
   
 
   ## [Installation](#table-of-contents)
-  inquirer
+  *Install Inquirer if not yet installed on your system. Refer to Inquirer Documentation for Instructions*
 
   ## [Usage](#table-of-contents)
-  *Install Inquirer if not yet installed on your system**>Refer to [Inquirer Documentation for Instructions](https://www.npmjs.com/package/inquirer)*
+  After Installation is complete, type node index.js using the command line in your terminal. Follow prompts to enter required fields and select from optional additional fields. You know you have finished when the prompt shows "README.md created!". The README will be created in the ./dist folder. You can copy and paste this code into your project as it is generated in mark down syntax.
 
-  ## Images
+  ## [Images](#table-of-contents)
     For information on how to add images and screenshots, visit the following website: 
+
     [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
 
   ## [License](#table-of-contents)
@@ -40,11 +40,8 @@
     
     
 
-  ## [Built With](#table-of-contents)
-  undefined
-
   ## [Contributors](#table-of-contents)
-  None at this time
+  None at this time.
 
   ## [Tests](#table-of-contents)
   To test this app, open up the file in your editor preference. Open the terminal, change directory into the root folder ‘node-challenge’, and run ‘node index.js’. Answer the prompts and view the preview of the ‘generated-README.md’ file in the ‘dist’ folder.

@@ -89,10 +89,10 @@ const questions = [
             //     name: 'Images',
             //     checked: true
             // },
-            {
-                name: 'Built with',
-                checked: true
-            },
+            // {
+            //     name: 'Built with',
+            //     checked: true
+            // },
             {
                 name: 'Licenses',
                 checked: false
@@ -160,37 +160,29 @@ const questions = [
         name: 'license',
         message: 'Provide any license information',
         choices: ['MIT', 'ISC', 'OpenBSD'],
-        // default: 0,
-        // when: ({ sections }) => {
-        //     if (sections.indexOf('Licenses')> -1) {
-        //         return true;
-        //     } else {
-        //         return false 
-        //     }
-        // },
-        // validate: licensesInput => {
-        //     if (licensesInput) {
-        //         return true;
-        //     } else {
-        //         console.log ('Enter license information or N/A');
-        //         return false;
-        //  }
-        // }
-    },
-    {
-        type: 'checkbox',
-        name: 'built',
-        message: 'Select languages and technologies used for your application',
-        choices: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Node.js', 'Express.js'],
         default: 0,
-        when: ({ sections }) => {
-            if (sections.indexOf('Built With') > -1) {
+        when: ({sections }) => {
+            if (sections.indexOf('Licenses')> -1) {
                 return true;
             } else {
-                return false;
+                return false 
             }
         }
-    }, 
+    },
+    // {
+    //     type: 'checkbox',
+    //     name: 'built',
+    //     message: 'Select languages and technologies used for your application',
+    //     choices: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Node.js', 'Express.js'],
+    //     default: 0,
+    //     when: ({ sections }) => {
+    //         if (sections.indexOf('Built With') > -1) {
+    //             return true;
+    //         } else {
+    //             return false;
+    //         }
+    //     }
+    // }, 
     {
         type: 'input',
         name: 'contributing',
